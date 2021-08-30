@@ -1,17 +1,17 @@
 {
   "logs": [
     {
-      "message": "Change network card in server 007",
+      "id": 1,
+      "message": "Updated in server 007",
       "attention": false,
-      "tech": "John Smith",
-      "date": "2021-08-30T10:55:56.675Z",
-      "id": 1
+      "tech": "Sarah Wilson",
+      "date": "2021-08-30T14:52:31.708Z"
     },
     {
-      "message": "Hard drive failed in server 002",
+      "message": "Tambah Logs",
       "attention": true,
-      "tech": "Sarah Wilson",
-      "date": "2021-08-30T10:57:42.558Z",
+      "tech": "John Doe",
+      "date": "2021-08-30T14:16:03.500Z",
       "id": 2
     }
   ],
