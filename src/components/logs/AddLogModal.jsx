@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { addLog } from '../../actions/logAction';
 import M from 'materialize-css/dist/js/materialize.min.js';
+import TechSelectOptions from '../techs/TechSelectOptions';
 
 const modalStyle = {
   width: '75%',
@@ -53,9 +54,7 @@ const AddLogModal = ({ addLog }) => {
               <option value="" disabled>
                 Select Technician
               </option>
-              <option value="John Doe">John Doe</option>
-              <option value="John Smith">John Smith</option>
-              <option value="Sarah Wilson">Sarah Wilson</option>
+              <TechSelectOptions />
             </select>
           </div>
         </div>
